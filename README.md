@@ -21,9 +21,9 @@ npm start
 
 ## Packaging and distribution
 
-By default, DevTools is open. Prevent this by removing `mainWindow.webContents.openDevTools()` in `notes-electron/main.js`.
+By default, DevTools is open in order to help speed up development. Prevent this by removing `mainWindow.webContents.openDevTools()` in `notes-electron/main.js`.
 
-To easily create an executable OS-specific bundle (.app, .exe etc), I reccommend using [electron-packager](https://github.com/electron-userland/electron-packager). 
+To easily create an executable OS-specific bundle (.app, .exe, etc), I recommend using [electron-packager](https://github.com/electron-userland/electron-packager). 
 
 A more in-depth explanation and method can be found at the [official application distrubition guidelines.](https://github.com/electron/electron/blob/master/docs/tutorial/application-distribution.md#packaging-your-app-into-a-file)
 
